@@ -1,0 +1,21 @@
+.product-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+.product-container div img{
+    margin-right: 15px;
+}
+.product-container div h1{
+    color: blue;
+    font-size: 21px;
+    font-weight: 400;
+}
+.product-container div button{
+    background-color: goldenrod;
+    padding: 5px 15px ;
+    border: none;
+    color: white;
+}
