@@ -300,6 +300,5 @@ let fakeData = [
         "shipping": 7.99
     }];
 
-    console.log(fakeData);
 
 export default fakeData;

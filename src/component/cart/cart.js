@@ -1,9 +1,7 @@
 import React from 'react';
-import { useState } from 'react/cjs/react.development';
 
 const Cart = (props) => {
     const cart = props.add;
-    console.log(cart);
     let price = 0, shipping = 0, tax = 0, total = 0, totalWithoutTax = 0;
     cart.forEach((product) =>{
         price += product.price;

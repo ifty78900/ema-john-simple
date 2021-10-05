@@ -37,6 +37,7 @@ const removeFromDb = id => {
 
 const getStoredCart = () => {
   const exists = getDb();
+  console.log(JSON.parse(exists));
   return exists ? JSON.parse(exists) : {};
 }
 
